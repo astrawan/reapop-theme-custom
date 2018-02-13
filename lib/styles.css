@@ -154,6 +154,35 @@
     max-height: 0;
     margin-bottom: 0; } }
 
+@keyframes :local(bottom0-enter) {
+  0% {
+    bottom: -360px;
+    opacity: 0; }
+  100% {
+    bottom: 0;
+    opacity: 1; } }
+
+@keyframes :local(bottom0-leave) {
+  0% {
+    -webkit-transform: translateY(0%);
+    transform: translateY(0%);
+    opacity: 1;
+    max-height: 200px;
+    margin-bottom: 0; }
+  40% {
+    margin-bottom: 0;
+    max-height: 200px; }
+  50% {
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+    opacity: 0; }
+  100% {
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+    opacity: 0;
+    max-height: 0;
+    margin-bottom: 0; } }
+
 @keyframes :local(rotating) {
   from {
     transform: rotate(0deg);
