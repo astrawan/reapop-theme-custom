@@ -1,7 +1,7 @@
 {
-  "name": "reapop-theme-bootstrap",
+  "name": "reapop-theme-custom",
   "version": "1.0.0",
-  "description": "Bootstrap theme for Reapop",
+  "description": "Custom Bootstrap theme for Reapop",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/LouisBarranqueiro/reapop-theme-bootstrap.git"
+    "url": "git+https://github.com/astrawan/reapop-theme-custom.git"
   },
   "keywords": [
     "reapop",
@@ -25,9 +25,9 @@
   "author": "Louis Barranqueiro",
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/LouisBarranqueiro/reapop-theme-bootstrap/issues"
+    "url": "https://github.com/astrawan/reapop-theme-custom/issues"
   },
-  "homepage": "https://github.com/LouisBarranqueiro/reapop-theme-bootstrap#readme",
+  "homepage": "https://github.com/astrawan/reapop-theme-custom#readme",
   "peerDependencies": {
     "bootstrap": "3.x.x",
     "font-awesome": "^4.6.1",

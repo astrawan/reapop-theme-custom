@@ -137,6 +137,17 @@
                 margin:        0;
                 border-radius: 0;
             }
+		}
+        &--b {
+            width: 100%;
+            bottom:   0;
+            left:  0;
+            @include notification-animation('bottom', 0);
+
+            .notification-wrapper {
+                margin:        0;
+                border-radius: 0;
+            }
         }
     }
 }

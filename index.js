@@ -4,6 +4,7 @@ var css = require('./lib/styles.css');
 
 // media breakpoint - small screen min width
 var smallScreenMin = 768;
+var smallScreenPosition = 'b';
 
 // default className for NotificationsSystem component
 var notificationsSystemClassName = css['notifications-system'];
@@ -59,6 +60,7 @@ var notificationClassName = {
 
 module.exports = {
   smallScreenMin: smallScreenMin,
+  smallScreenPosition: smallScreenPosition,
   notificationsSystem: {
     className: notificationsSystemClassName
   },
